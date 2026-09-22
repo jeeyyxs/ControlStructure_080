@@ -1,0 +1,10 @@
+performance = int (input("Enter the student's percentage: "))
+
+if performance >= 90 :
+    print("Excellent performance")
+elif performance >= 80 :
+    print("Very good performance")
+elif performance >= 70 :
+    print("Good performance")
+else :
+    print("Average performance")
